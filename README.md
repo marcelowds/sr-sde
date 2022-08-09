@@ -1,5 +1,10 @@
 ## Paper Title
 
+<p align="center">
+  <img width="250" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/sr_generation.gif">
+</p>
+
+
 Prepare conda environment 
 
 ```conda create -n srsde python=3.8.2```
