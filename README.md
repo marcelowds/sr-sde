@@ -1,3 +1,5 @@
+## Paper Title
+
 Prepare conda environment 
 
 ```conda create -n srsde python=3.8.2```
@@ -12,4 +14,12 @@ Also install jax+cuda
 
 Activate conda environment
 
-```conda activate srsde_env```
+```conda activate srsde```
+
+Train the models
+
+```python3 main.py --config 'configs/ve/sr_ve.py' --mode 'train' --workdir VESDE```
+
+To generate Super-Resolution images, without training, download the pre-trained model in ```url``` and put on ```./VESDE/checkpoits``` and run
+
+```python3 main.py --config 'configs/ve/sr_ve.py' --mode 'sr' --workdir VESDE```
