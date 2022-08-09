@@ -1,7 +1,7 @@
-## Paper Title
-
+## Super-Resolution Generation
 <p align="center">
-  <img width="250" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/sr_generation.gif">
+  <p>LR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/lr_image.png">
+  <p>SR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/sr_generation.gif">
 </p>
 
 
