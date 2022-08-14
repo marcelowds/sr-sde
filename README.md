@@ -1,7 +1,7 @@
 ## Super-Resolution Generation
 <p align="center">
-  <p>LR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/lr_image.png">
-  <p>SR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/sr_generation.gif">
+  <p>Input - LR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/lr_image.png">
+  <p>Output - SR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/sr_generation.gif">
 </p>
 
 Prepare conda environment 
