@@ -1,4 +1,4 @@
-## Super-Resolution Generation
+## Face Super-resolution Using Stochastic Differential Equations
 <p align="center">
   <p>Input - LR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/lr_image.png">
   <p>Output - SR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/sr_generation.gif">
@@ -27,3 +27,6 @@ Train the models
 To generate Super-Resolution images without training, download the pre-trained model in ```url```, copy to ```./VESDE/checkpoits``` and run
 
 ```python3 main.py --config 'configs/ve/sr_ve.py' --mode 'sr' --workdir VESDE```
+
+## Code
+Under construction...
