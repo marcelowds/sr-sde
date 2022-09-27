@@ -1,5 +1,5 @@
 ## Face Super-resolution Using Stochastic Differential Equations 
-For more details, see our <a href="http://128.84.4.34/abs/2209.12064">paper</a>.
+For more details, see our <a href="https://arxiv.org/abs/2209.12064">paper</a>.
 
 
 
