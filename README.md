@@ -1,4 +1,8 @@
-## Face Super-resolution Using Stochastic Differential Equations
+## Face Super-resolution Using Stochastic Differential Equations 
+For more details, see our <a href="http://128.84.4.34/abs/2209.12064">paper</a>.
+
+
+
 <p align="center">
   <p>Input - LR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/lr_image.png">
   <p>Output - SR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/sr_generation.gif">
