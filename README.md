@@ -34,3 +34,12 @@ To generate Super-Resolution images without training, download the pre-trained m
 
 ## Code
 Under construction...
+
+## Citation
+```
+@article{santos2022face,
+  title={Face Super-Resolution Using Stochastic Differential Equations},
+  author={Santos, Marcelo dos and Laroca, Rayson and Ribeiro, Rafael O and Neves, Jo{\~a}o and Proen{\c{c}}a, Hugo and Menotti, David},
+  journal={arXiv preprint arXiv:2209.12064},
+  year={2022}
+}```
