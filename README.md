@@ -42,4 +42,5 @@ Under construction...
   author={Santos, Marcelo dos and Laroca, Rayson and Ribeiro, Rafael O and Neves, Jo{\~a}o and Proen{\c{c}}a, Hugo and Menotti, David},
   journal={arXiv preprint arXiv:2209.12064},
   year={2022}
-}```
+}
+```
