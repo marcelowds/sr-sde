@@ -36,11 +36,19 @@ To generate Super-Resolution images without training, download the pre-trained m
 Under construction...
 
 ## Citation
+* M. dos Santos, R. Laroca, R. O. Ribeiro, J. Neves, H. Proença, D. Menotti, “Face Super-Resolution Using Stochastic Differential Equations”, in *Conference on Graphics, Patterns and Images (SIBGRAPI)*, pp. 216-221, Oct. 2022. [[IEEE Xplore]](https://doi.org/10.1109/SIBGRAPI55357.2022.9991799) [[arXiv]](https://arxiv.org/abs/2209.12064)
+
 ```
-@article{santos2022face,
-  title={Face Super-Resolution Using Stochastic Differential Equations},
-  author={Santos, Marcelo dos and Laroca, Rayson and Ribeiro, Rafael O and Neves, Jo{\~a}o and Proen{\c{c}}a, Hugo and Menotti, David},
-  journal={arXiv preprint arXiv:2209.12064},
-  year={2022}
+@inproceedings{santos2022face,
+  title = {Face Super-Resolution Using Stochastic Differential Equations},
+  author = {M. {dos Santos} and R. {Laroca} and R. O. {Ribeiro} and J. {Neves} and H. {Proen\c{c}a} and D. {Menotti}},
+  year = {2022},
+  month = {Oct},
+  booktitle = {Conference on Graphics, Patterns and Images (SIBGRAPI)},
+  volume = {},
+  number = {},
+  pages = {216-221},
+  doi = {10.1109/SIBGRAPI55357.2022.9991799},
+  issn = {1530-1834},
 }
 ```
