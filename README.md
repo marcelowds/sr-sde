@@ -7,7 +7,7 @@
   <p>Output - SR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/sr_generation.gif">
 </p>
 
-This project was built using a fork of [[Score-SDE]](https://github.com/yang-song/score_sde)
+This project was built using a fork of [Score-SDE](https://github.com/yang-song/score_sde)
 
 
 ## Prepare conda environment 
@@ -32,7 +32,7 @@ Activate conda environment
 
 ## SR images 
 
-To generate Super-Resolution images from CelebaHQ without training, download the pre-trained model in ```url```, copy to ```./VESDE/checkpoints``` and run
+To generate Super-Resolution images from CelebaHQ without training, download the pre-trained ```SDE-VE``` model [here](https://drive.google.com/file/d/1rhdzIyWjF94QWz2jWjfwUJPOhCADPagV/view?usp=share_link), copy to ```./VESDE/checkpoints``` and run
 
 ```python3 main.py --config 'configs/ve/sr_ve.py' --mode 'sr' --workdir VESDE```
 
