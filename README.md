@@ -8,6 +8,9 @@ For more details, see our <a href="https://arxiv.org/abs/2209.12064">paper</a>.
   <p>Output - SR</p>   <img width="150" src="https://raw.githubusercontent.com/marcelowds/sr-sde/main/sr_generation.gif">
 </p>
 
+This project was built using a fork of [[Score-SDE]](https://github.com/yang-song/score_sde)
+
+
 Prepare conda environment 
 
 ```conda create -n srsde python=3.8.2```
@@ -32,8 +35,10 @@ To generate Super-Resolution images without training, download the pre-trained m
 
 ```python3 main.py --config 'configs/ve/sr_ve.py' --mode 'sr' --workdir VESDE```
 
-## Code
-Under construction...
+The algorithm receives images in tfrecords format. In the tfrecords folder there is a sample of 32 images from the CelebAHQ dataset.
+
+Adjust settings and path in files ```config/default_ve_configs.py``` and ```configs/ve/sr_ve.py```.
+
 
 ## Citation
 * M. dos Santos, R. Laroca, R. O. Ribeiro, J. Neves, H. Proença, D. Menotti, “Face Super-Resolution Using Stochastic Differential Equations”, in *Conference on Graphics, Patterns and Images (SIBGRAPI)*, pp. 216-221, Oct. 2022. [[IEEE Xplore]](https://doi.org/10.1109/SIBGRAPI55357.2022.9991799) [[arXiv]](https://arxiv.org/abs/2209.12064)
