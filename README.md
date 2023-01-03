@@ -1,5 +1,4 @@
 ## Face Super-resolution Using Stochastic Differential Equations 
-For more details, see our <a href="https://arxiv.org/abs/2209.12064">paper</a>.
 
 
 
@@ -11,7 +10,7 @@ For more details, see our <a href="https://arxiv.org/abs/2209.12064">paper</a>.
 This project was built using a fork of [[Score-SDE]](https://github.com/yang-song/score_sde)
 
 
-Prepare conda environment 
+## Prepare conda environment 
 
 ```conda create -n srsde python=3.8.2```
 
@@ -27,13 +26,17 @@ Activate conda environment
 
 ```conda activate srsde```
 
-Train the models
+## Train the models
 
 ```python3 main.py --config 'configs/ve/sr_ve.py' --mode 'train' --workdir VESDE```
 
-To generate Super-Resolution images without training, download the pre-trained model in ```url```, copy to ```./VESDE/checkpoints``` and run
+## SR images 
+
+To generate Super-Resolution images from CelebaHQ without training, download the pre-trained model in ```url```, copy to ```./VESDE/checkpoints``` and run
 
 ```python3 main.py --config 'configs/ve/sr_ve.py' --mode 'sr' --workdir VESDE```
+
+## Tfrecords
 
 The algorithm receives images in tfrecords format. In the tfrecords folder there is a sample of 32 images from the CelebAHQ dataset.
 
