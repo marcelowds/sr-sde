@@ -1,0 +1,25 @@
+
+1 - VESDE
+
+1.1 - TRAIN
+CUDA_VISIBLE_DEVICES=1 python3 main.py --config 'configs/ve/sr_ve.py' --mode 'train' --workdir VESDE
+
+1.2 - SR GENERATION
+CUDA_VISIBLE_DEVICES=0 python3 main.py --config 'configs/ve/sr_ve.py' --mode 'sr' --workdir VESDE
+
+2 - VPSDE
+
+1.1 - TRAIN
+CUDA_VISIBLE_DEVICES=1 python3 main.py --config 'configs/vp/sr_subvp.py' --mode 'train' --workdir VPSDE
+
+1.2 - SR GENERATION
+CUDA_VISIBLE_DEVICES=0 python3 main.py --config 'configs/vp/sr_vp.py' --mode 'sr' --workdir VPSDE
+
+3 - SUBVPSDE
+
+1.1 - TRAIN
+CUDA_VISIBLE_DEVICES=1 python3 main.py --config 'configs/subvp/sr_subvp.py' --mode 'train' --workdir SUBVPSDE
+
+1.2 - SR GENERATION
+CUDA_VISIBLE_DEVICES=0 python3 main.py --config 'configs/subvp/sr_subvp.py' --mode 'sr' --workdir SUBVPSDE
+
