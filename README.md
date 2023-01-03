@@ -28,7 +28,7 @@ Train the models
 
 ```python3 main.py --config 'configs/ve/sr_ve.py' --mode 'train' --workdir VESDE```
 
-To generate Super-Resolution images without training, download the pre-trained model in ```url```, copy to ```./VESDE/checkpoits``` and run
+To generate Super-Resolution images without training, download the pre-trained model in ```url```, copy to ```./VESDE/checkpoints``` and run
 
 ```python3 main.py --config 'configs/ve/sr_ve.py' --mode 'sr' --workdir VESDE```
 
